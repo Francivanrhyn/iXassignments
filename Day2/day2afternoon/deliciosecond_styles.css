@@ -1,0 +1,275 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+	font-size: 16px;
+	color: #888888;
+	background-color: #222222;
+}
+.header{
+	background-color: white;
+	display:inline-block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	position:fixed;
+	margin:auto;
+	width:100%;
+}
+.title{
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 360px;
+	font-family: cursive;
+	color:black;
+	font-size: 35px;
+	display:inline-block;
+}
+.buttons{
+	text-align: right;
+	padding-right:50px;
+	font-size: 17px;
+	color:black;
+	display:inline-block;
+}
+.button{
+	display:inline-block;
+	padding-right: 20pt;
+}
+.button img{
+	display:inline-block;
+	width:17pt;
+	height:17pt;
+}
+.content{
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background-image: url(https://c1.staticflickr.com/5/4153/5042430099_0a9a3ed702_b.jpg);
+	color: white;
+}
+.heading{
+	text-align:center;
+	padding-top:50px;
+	padding-left:100px;
+	padding-right:100px;
+	padding-bottom:20px;
+	font-family: Georgia;
+	font-size: 65px;
+	border-bottom: white solid 2pt;
+}
+.description{
+	text-align:center;
+	padding-top:26px;
+	padding-bottom: 20px;
+	padding-left:240px;
+	padding-right:240px;
+	font-family: sans-serif;
+	font-size: 18px;
+
+}
+.orange-button{
+	background-color: orange;
+	color:white;
+	text-align: center;
+	padding:10pt;
+	font-size: 15pt;
+	width:180px;
+	margin:auto;
+}
+.footer{
+	padding-top: 60px;
+	text-align: left;
+	padding-left: 48px;
+}
+.titles{
+	display:inline-block;
+	color: white;
+	text-transform: uppercase;
+	font-style: bold;
+	text-align: center;
+}
+.title1{
+	display:inline-block;
+	padding-right: 220px;
+}
+.title2{
+	display:inline-block;
+	padding-right: 220px;
+}
+.title3{
+	display:inline-block;
+	padding-right: 220px;
+}
+.title4{
+	display:inline-block;
+	padding-right: 220px;
+}
+.footer-content{
+	color:#888888;
+	display:inline-block;
+	padding-bottom: 50pt;
+}
+.address{
+	display:inline-block;
+	padding-top: 20px;
+	text-align: left;
+}
+.maplink{
+	color: orange;
+	padding-top: 13px;
+}
+.time{
+	display:inline-block;
+	padding-top: 10px;
+	text-align: left;
+	padding-left: 180px;
+}
+.timeline3{
+	padding-top: 20px;
+}
+.timeline4{
+	padding-bottom: 30px;
+}
+.social-media{
+	display:inline-block;
+	padding-top: 10px;
+	text-align: left;
+	padding-left: 190px;
+}
+.social-media img{
+	padding-bottom: 70px;
+}
+.facebook {
+	display:inline-block;
+}
+.facebook img{
+	display:inline-block;
+	width:20pt;
+	height:20pt;
+
+}
+.twitter {
+	display:inline-block;
+}
+.twitter img{
+	display:inline-block;
+	width:20pt;
+	height:20pt;
+}
+.insta {
+	display:inline-block;
+}
+.insta img {
+	display:inline-block;
+	width:20pt;
+	height:20pt;
+}
+.foursquare {
+	display:inline-block;
+}
+.foursquare img {
+	display:inline-block;
+	width:20pt;
+	height:20pt;
+}
+.tripadvisor {
+	display:inline-block;
+}
+.tripadvisor img {
+	display:inline-block;
+	width:20pt;
+	height:20pt;
+}
+.yelp {
+	display:inline-block;
+}
+.yelp img{
+	display:inline-block;
+	width:20pt;
+	height:20pt;
+}
+.instapictures{
+	display:inline-block;
+	padding-left: 136px;
+	padding-top: 20px;
+}
+.instapictures img{
+	width:40pt;
+	height:40pt;
+	display:inline-block;
+}
+.row-one img{
+	display:inline-block;
+}
+.pic1 img{
+	display:inline-block;
+}
+.pic2 img{
+	display:inline-block;
+}
+.pic3 img{
+	display:inline-block;
+}
+.pic1{
+	display:inline-block;
+}
+.pic2{
+	display:inline-block;
+}
+.pic3{
+	display:inline-block;
+}
+.row-two img{
+	display:inline-block;
+}
+.pica img{
+	display:inline-block;
+}
+.picb img{
+	display:inline-block;
+}
+.picc img{
+	display:inline-block;
+}
+.pica{
+	display:inline-block;
+}
+.picb{
+	display:inline-block;
+}
+.picc{
+	display:inline-block;
+}
+.line img{
+	padding-left: 32spt;
+	padding-bottom: 40px;
+}
+.footer-credit{
+	display:inline-block;
+	padding-bottom: 50px;
+	padding-right: 50px;
+}
+.copyright{
+	display:inline-block;
+	padding-left: 48px;
+}
+.design{
+	display:inline-block;
+	text-shadow: left;
+	padding-left: 820px;
+}
+.dtext{
+	display:inline-block;
+}
+.designer{
+	display:inline-block;
+	color:orange;
+}
+
+
+
+
+
+
+
+
+
