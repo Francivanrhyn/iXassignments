@@ -1,0 +1,99 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+	text-align: center;
+	font-size: 17px;
+	color: white;
+	background-color: #302B25;
+	
+}
+
+.title{
+	text-align: left;
+	padding-left: 150px;
+	padding-top: 40px;
+}
+
+.buttons{
+	text-align: right;
+	padding-right:150px;
+	padding-top: 10px;
+	font-size: 14px;
+}
+
+.main {
+	background-color: #302B25;
+	color: white;
+	margin: auto;
+	width: 400px;
+}
+.main-text{
+	text-align: center;
+	padding: 20px;
+}
+
+.main-body img {
+	width: 300px;
+	margin:auto;
+}
+
+.main-credit {
+	background-color: gray;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+
+.credit-title{
+	text-align: left;
+	padding-left: 160px;
+	padding-bottom: 30px;
+	color: black;
+	font-size: 27px;
+}
+
+.footer-body {
+	background-color: #85DBC2;
+	text-align: center;
+	padding-top:90px;
+	padding-bottom:50px;
+	font-size: 27px;
+
+}
+
+.footer-header{
+	background-color: #f7f7f7;
+	text-align: left;
+	font-size: 14px;
+	color:#5A5A5A; 
+	padding-left: 150px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+.footer-credit{
+	background-color: white;
+	color: black;
+
+}
+.made-in{
+	text-align: left;
+	padding-left: 20px;
+	padding-top:40px;
+	font-size:14px;
+}
+.copyright{
+	text-align: right;
+	font-size:14px;
+	padding-top:40px;
+	padding-right:20px;
+
+}
+.botbuttons{
+	text-align: right;
+	padding-right:70px;
+
+}
+
