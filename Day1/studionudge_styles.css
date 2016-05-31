@@ -1,0 +1,70 @@
+
+
+h1 {
+	text-align: left;
+	font-family: Chancery;
+	font-style: italic;
+	font-weight:600;
+}
+
+div button{
+    display:inline-block;
+    border: none;
+    /*how do i remove the button outline*/
+}
+
+table.table1 {
+	border-color: white;
+	border-collapse: collapse;
+	
+}
+table.table1 td {
+    border-bottom: 1px solid #b3b3b3;
+}
+
+
+p { 
+	color: black; 
+	font-size: 32px; 
+	font-family: "Baskerville", serif;
+	/* why does my font weight not change the appearance*/
+	font-weight: 100; 
+	line-height: 45px; 
+	text-align: center; 
+	font-weight: 20;
+	text-shadow: 0 1px 1px #fff; 
+	padding-top: 50px; 
+	padding-right: 300px;
+	padding-left: 300px;
+}
+
+table.table2 {
+padding-right: 420px;
+padding-left:420px;
+padding-top: 20px;
+border-spacing: 10px;
+float :center;
+/*position: fixed;
+  left: 0;
+  right: 0;
+  margin:0 auto;
+  width: 500px;
+  height: 500px;*/
+
+
+/* why does this not work to align the image*/
+}
+
+table.table2 tr {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+table.table2 th{
+	column-span: "2";
+}
+
+footer{ 
+    font-size: 10px;
+    border-top: solid gray;
+
+}

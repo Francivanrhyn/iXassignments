@@ -1,0 +1,63 @@
+table.table1{
+	background-color: white;
+	 position: fixed;
+	 width: 100%;
+	
+
+
+}
+body {
+    background-image: url("http://thewallpaper.co/wp-content/uploads/2016/03/food-berries-widescreen-high-definition-wallpaper-for-desktop-background-berries-images-amazing-desktop-images-free-1920x1200-736x459.jpg");
+    background-color: #cccccc;
+}
+h1 {
+	color: white;
+	font-style: "Georgia", serif;
+	font-weight: lighter;
+	padding-right: 60px;
+	padding-left:60px ;
+	padding-top: 100px;
+	font-size: 85px;
+
+}
+h2{
+	font-style: italic;
+}
+
+p{
+	color: white;
+	font-size: 20px;
+	font-style: sans-serif;
+	padding-right: 300px;
+	padding-left: 300px;
+}
+button.button2 {
+	background-color: orange;
+	color: white;
+	border-color: orange;
+/*make square button
+make larger text*/
+
+	
+}
+table.table2{
+	background-color: #404040 ;
+	padding: 50px;
+	color: white;
+	font-family: "Georgia" sans-serif;
+
+}
+
+footer{
+	background-color: #404040;
+	color:gray;
+	border-top: solid gray;
+	text-align: left;
+	border-top-width: 1px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	font-size: 15px;
+
+
+}
