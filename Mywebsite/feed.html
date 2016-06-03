@@ -1,0 +1,126 @@
+<!-- how do you make the text mobile friendly??
+why do hyperlinks not format? 
+i linked it as .headlink div, is that right?-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <title>franci</title>
+ 
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="animatefinal_styles.css">
+
+    <link rel="stylesheet" href="assets/demo.css">
+	<link rel="stylesheet" href="assets/header-fixed.css">
+	 <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+
+ 
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+ <style>
+
+.grad1 {
+    height: 200px;
+    /*background: #2d2d30; */
+   /* background-image: -webkit-linear-gradient(#2d2d30;, white); /
+    background-image: -o-linear-gradient(#2d2d30;, white);
+    background-image: -moz-linear-gradient(#2d2d30;, white); 
+    background-image: linear-gradient(#2d2d30;, white); */
+    background-image: repeating-linear-gradient( 135deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+}
+
+ body{
+  padding-top: 10px;
+  background-color: white;
+} 
+
+p{
+  color: #FFCBA4; 
+  font-family: "Lato";
+  font-size: 20px;
+  margin: 20px 0 0 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(60, end); 
+  padding-bottom: 40pt;
+}
+
+p:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+
+p a{
+  color: #FFCBA4;
+  text-decoration: none;
+}
+
+span{
+  animation: blink 0.3s infinite;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}
+@media (min-width: 480px) {
+    .blue p {
+      font-size: 20pt; 
+      text-align: center
+      font-weight:lighter;
+    }
+}
+
+.blue p{
+  margin-left: 
+  font-size: 30pt;
+}
+.link a{
+  padding-right: 20pt;
+}
+</style>
+</head>
+<body class="grad1">
+  <div class="container">
+    <div class="row blue">
+      <p>Instagram feed</p>
+        <p>follow me
+      <a href="https://twitter.com/@samarkandiy" title="Azik Samarkandiy">@francivanrhyn</a> 
+      <span>|</span></p> 
+  	   </div>   
+  	   <div >
+  		<script src="https://snapwidget.com/js/snapwidget.js"></script>
+  		<iframe src="https://snapwidget.com/embed/182534" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+  	</div>
+    <div class="row">
+      <p class="text-center link"> 
+      <a href="http://www.instagram.com"> Instagram </a> 
+      <a href="animatefinaltime.html"> Home</a> 
+      <a href="about.html"> About</a> 
+      </p>
+    </div>  
+  </div>
+</body>
+</html>
+
+
+
+

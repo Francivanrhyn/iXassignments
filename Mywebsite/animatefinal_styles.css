@@ -1,0 +1,350 @@
+
+
+@media (max-width: 480px) {
+	.title {
+		font-size: 40px;
+	}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+	.title {
+		font-size: 40px;
+	}
+}
+
+
+@media (max-width: 480px) {
+	.sub {
+		font-size: 10px;
+	}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+	.sub {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 480px) {
+	.text-center {
+	 padding:0;
+	}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+	.text-center {
+		padding:0;
+	}
+}
+
+.dropdown{
+	text-align:center;
+}
+
+
+.text-center{
+	padding-top: 20pt;
+}
+.text-center h1{
+	padding-top: 30pt;
+}
+
+.blue drop{
+	text-align: center;
+}
+
+
+.red{
+	font-size:80pt;
+	padding-top: 110pt;
+	color:pink;
+	font-family: "Georgia" sans-serif;
+	font-weight:lighter;
+	text-align: center;
+}
+.green{
+	font-family: sans-serif;
+	color:gray;
+	font-size: 25pt;
+	font-weight:lighter;
+	padding-bottom: 20pt;
+}
+
+
+
+.drop{
+	padding-left: 20px;
+}
+/*background video WHY DOES IT NOT WORK?!*/
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+
+/* instagram feed */
+@media (max-width: 480px) {
+	.instat {
+		font-size: 4px;
+		padding:0;
+		margin:0;
+	}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+	.instat  {
+		font-size: 7px;
+		padding:0;
+		margin:0;
+
+	}
+} 
+.item_box{
+    height:500px;
+    padding:0;
+	margin:0;
+
+}
+ 
+.photo-thumb{
+    width:100%;
+    height:auto;
+    float:left; 
+    border: thin solid #d1d1d1;
+    margin:0 1em .5em 0;
+    float:left; 
+}
+</style>
+
+.headlink{
+	text-align:center;
+	color: ;
+	font-family: Georgia,
+	font-weight: lighter;
+	color:#D2982D;
+	font-weight: lighter;
+	text-decoration: none;
+
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+}
+
+body{
+  background: #030321;
+  font-family: Arial;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+    stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+
+
+/*about.html*/
+body {
+  padding: 2em 5em;
+  font: normal 40px/50px Arial, sans-serif;
+  color: #999;
+}
+p {
+  height: 50px;
+  float: left;
+  margin-right: 0.3em;
+}
+b {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+}
+span1 {
+ display: inline-block;
+color: #e74c3c;
+position: relative;
+white-space: nowrap;
+top: 0;
+left: 0;
+-webkit-animation: move 5s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-delay: 1s;
+}
+
+@keyframes move {
+0%  { top: 0px; }
+20% { top: -50px; }
+40% { top: -100px; }
+60% { top: -150px; }
+80% { top: -200px; }
+}
+#navigation {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  display: inline-block;
+  width: 100%;
+  height: 55px;
+  top: 0;
+  left: 0;
+  box-shadow: 0 1px 6px #2d2d2d;
+  background: rgba(250,250,250,0.9);
+  border-top: 1px solid #e6e7e8;
+  border-bottom: 1px solid #e6e7e8;
+}
+#navigation .navlinks {
+  list-style: none;
+}
+#navigation .navlinks li {
+  display: inline-block;
+  margin-right: 5px;
+}
+#navigation .navlinks li a {
+  display: block;
+  float: left;
+  padding: 0 12px;
+  line-height: 55px;
+  font-weight: bold;
+  color: #777;
+}
+#navigation .navlinks li a:hover {
+  text-decoration: none;
+  color: #444;
+  background: #fcfcfc;
+}
+
+
+#heading {
+  display: block;
+  width: 100%;
+  height: 380px;
+  padding: 20px 0;
+  background: url('../images/bg-snes-closeup-x500.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-box-shadow: inset 0 -4px 9px -3px #000;
+  -moz-box-shadow: inset 0 -4px 9px -3px #000;
+  box-shadow: inset 0 -4px 9px -3px #000;
+}
+#heading h1, #heading h2, #heading h3, #heading h4, #heading h5, #heading p {
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6), 0 0 30px rgba(0,0,0,0.25);
+}
+
+#heading h1 {
+  font-size: 90px;
+  line-height: 105px;
+  letter-spacing: -1px;
+  color: #fff;
+}
+
+#heading h4 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+/* food */
+
+
+
+
+
+
+
+
+
+
+
