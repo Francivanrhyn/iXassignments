@@ -1,0 +1,28 @@
+body{
+	background-color: #FFE4C4;
+}
+h1{
+	font-family: Courier New, monospace	; 
+	font-size: 40pt;
+	text-align: center;
+	background-color: #FBF1E3;
+	padding-left:50pt;
+	padding-right: 50pt;
+	padding-top: 30pt;
+	padding-bottom: 30pt;
+}
+ol{
+	background-color: white;
+	text-align: center;
+}
+li{
+	padding: 20pt;
+	font-weight: heavier;
+
+}
+
+form{
+	margin-left: 140pt;
+	margin-bottom: 20pt;
+	margin-top: 10pt;
+}
