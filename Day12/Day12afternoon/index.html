@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FormApp</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+<link rel="stylesheet" type="text/css" href="./style.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+<script src="./script.js"></script>
+</head>
+<body ng-app="FormApp" ng-controller="FormCtrl">
+	<h1> Please Complete the Form:</h1>
+	<hr>
+	<div>{{error}}</div>
+	<div>{{error1}}</div>
+	<div>{{error2}}</div>
+	<div>{{error3}}</div>
+	<div>{{error4}}</div>
+	<div>{{error5}}</div>
+
+	<hr>
+	<form ng-hide="truevar">
+		<div class="form-group">
+			<label for="inputName">Name</label>
+			<input type="text" class="form-control" id="inputName" placeholder="Enter Name" ng-model="name">
+		</div>
+	    <div class="form-group">
+	        <label for="inputEmail">Email address</label>
+	        <input type="text" class="form-control" id="inputEmail1" placeholder="Enter email" ng-model="email">
+	    </div>
+	    <div class="form-group">
+	        <label for="inputPhone">Phone</label>
+	        <input type="text" class="form-control" id="inputPhone" placeholder="Enter Phone" ng-model="phone">
+	    </div>
+	    <div class="form-group">
+	        <label for="inputPassword1">Password</label>
+	        <input type="password" class="form-control" id="inputPassword1" placeholder="Password" ng-model="password" //ng-minlength="minlength">
+	    </div>
+	    <div class="form-group">
+	        <label for="inputPassword2">Confirm Password</label>
+	        <input type="password" class="form-control" id="inputPassword2" placeholder="Confirm Password" ng-model="confirmpassword">
+	    </div>
+	    <button type="submit" class="btn btn-default" ng-click="submit()">Submit</button>
+	</form>
+</body>
+</html>

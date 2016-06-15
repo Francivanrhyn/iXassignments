@@ -1,0 +1,12 @@
+body{
+	padding:100pt;
+}
+h1{
+	text-align: center;
+	color:#446600;
+	font-family: "Book Antiqua";
+}
+div{
+	font-family: serif;
+	font-size: 15pt;
+}
